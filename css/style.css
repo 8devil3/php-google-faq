@@ -4,3 +4,53 @@
    box-sizing: border-box;
 }
 
+@font-face {
+   font-family: "Google Sans";
+   src: url("//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2") format("woff2");
+   font-style: normal;
+   font-weight: 500;
+   unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+}
+
+h1, h2, h3 {
+   color: #3c4043;
+   font-family: 'Google Sans', sans-serif;
+   margin-top: 1.5rem;
+
+}
+
+h2 {
+   font-size: 1.5rem;
+   line-height: 2rem;
+}
+
+h3 {
+   font-size: 1.125rem;
+   line-height: 1.75rem;
+}
+
+p, ul, ol {
+   font-size: 0.875rem;
+   color: #000000de;
+   line-height: 1.5rem;
+   margin-top: 1.5rem;
+}
+
+li {
+   margin-top: 0.75rem;
+}
+
+ul, ol {
+   margin-left: 1rem;
+}
+
+main {
+   max-width: 978px;
+   padding: 2rem;
+   margin: 0 auto;
+}
