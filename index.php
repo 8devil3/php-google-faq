@@ -19,8 +19,26 @@
 </head>
 
 <body>
-   <header>
-
+   <header class="col">
+      <div class="row j-between">
+         <div class="row">
+            <a href="https://www.google.it" class="logo"></a>
+            <h1>Privacy e termini</h1>
+         </div>
+         <div class="row">
+            <div class="icon">
+               <svg class="gb_Ve" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+            </div>
+            <button>Accedi</button>
+         </div>
+      </div>
+      <ul class="row">
+         <li>Introduzione</li>
+         <li>Norme sulla privacy</li>
+         <li>Termini di servizio</li>
+         <li>Tecnologie</li>
+         <li>Domande frequenti</li>
+      </ul>
    </header>
 
    <main>
@@ -28,7 +46,23 @@
    </main>
 
    <footer>
-
+      <div class="row j-between">
+         <ul class="row">
+            <li>Google</li>
+            <li>Tutto su Google</li>
+            <li>Privacy</li>
+            <li>Termini</li>
+         </ul>
+         <div class="row">
+            <div class="lang-icon"></div>
+            <select>
+               <option value="0" default>Italiano</option>
+               <option value="1">Inglese</option>
+               <option value="2">Tedesco</option>
+               <option value="3">Francese</option>
+            </select>
+         </div>
+      </div>
    </footer>
 </body>
 </html>
